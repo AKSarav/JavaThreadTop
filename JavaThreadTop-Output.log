@@ -1,0 +1,70 @@
+"Thread-15" #58 daemon prio=5 os_prio=0 tid=0x00007fb000323800 nid=0x1a77 runnable [0x00007fafda3e4000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-14" #57 daemon prio=5 os_prio=0 tid=0x00007fb000321800 nid=0x1a76 runnable [0x00007fafda4e5000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-13" #56 daemon prio=5 os_prio=0 tid=0x00007fb000320000 nid=0x1a75 runnable [0x00007fafda5e6000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-12" #55 daemon prio=5 os_prio=0 tid=0x00007fb00031e800 nid=0x1a74 runnable [0x00007fafda6e7000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-11" #54 daemon prio=5 os_prio=0 tid=0x00007fb00031c800 nid=0x1a73 runnable [0x00007fafda7e8000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-10" #53 daemon prio=5 os_prio=0 tid=0x00007fb00031a800 nid=0x1a72 runnable [0x00007fafda8e9000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-9" #52 daemon prio=5 os_prio=0 tid=0x00007fb000319000 nid=0x1a71 runnable [0x00007fafda9ea000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-8" #51 daemon prio=5 os_prio=0 tid=0x00007fb000317000 nid=0x1a70 runnable [0x00007fafdaaeb000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-7" #50 daemon prio=5 os_prio=0 tid=0x00007fb0002b0800 nid=0x1a6f runnable [0x00007fb008d75000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-6" #49 daemon prio=5 os_prio=0 tid=0x00007fb0002af800 nid=0x1a6e runnable [0x00007fb008e76000]
+   java.lang.Thread.State: RUNNABLE
+	at com.middlewareinventory.sarav.CPUMonster.CPUMonsterThread(CPUMonster.java:24)
+	at com.middlewareinventory.sarav.XThread$1.run(XThread.java:25)
+	at java.lang.Thread.run(Thread.java:748)
+
+"ajp-nio-8009-AsyncTimeout" #47 daemon prio=5 os_prio=0 tid=0x00007fb02c613800 nid=0x1a56 waiting on condition [0x00007fafdadec000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.coyote.AbstractProtocol$AsyncTimeout.run(AbstractProtocol.java:1149)
+	at java.lang.Thread.run(Thread.java:748)
+
+"ajp-nio-8009-Acceptor-0" #46 daemon prio=5 os_prio=0 tid=0x00007fb02c611800 nid=0x1a55 runnable [0x00007fafdaeed000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:422)
