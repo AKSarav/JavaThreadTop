@@ -1,0 +1,42 @@
+[tomcat@mwiapp01 tomcat]$ /home/tomcat/JavaThreadTop.sh 6693
+
+INFO: JCMD is found. All Good
+INFO: jcmd is able to connect to the JVM. All Good
+
+
+INFO: Checking if top command in the system support batch mode
+INFO: Voila! top command in your system supports the batch mode
+INFO: Finding the Threads which are taking lot of your CPU
+
+INFO: Patience Please
+==============================================================
+	 FIRST 10 CPU CONSUMING THREADS AS OF NOW, ARE 	
+==============================================================
+top - 20:39:35 up  1:07,  1 user,  load average: 7.63, 2.52, 0.89
+Threads:  57 total,  10 running,  47 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 95.5 us,  4.5 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1768116 total,  1383540 free,   136788 used,   247788 buff/cache
+KiB Swap:  4194300 total,  4194300 free,        0 used.  1455652 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 6769 tomcat    20   0 2960380  98688  17028 R 26.7  5.6   0:17.16 java
+ 6766 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.24 java
+ 6767 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.19 java
+ 6768 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.19 java
+ 6770 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.17 java
+ 6771 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.14 java
+ 6772 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.20 java
+ 6773 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.20 java
+ 6774 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.22 java
+ 6775 tomcat    20   0 2960380  98688  17028 R 20.0  5.6   0:17.20 java
+
+==============================================================
+	 SUSPECIOUS THREADS WITH NAMES AND STACK TRACES
+==============================================================
+INFO: We present the thread info with less(or)cat command for your for better readability
+
+INFO: We have saved the Output into a file named JavaThreadTop-Output.log in the Current Directory for your future reference
+
+
+HOPE YOU LIKED THIS TOOL. THANKS and GOODBYE
+
